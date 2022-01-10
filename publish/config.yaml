@@ -2,8 +2,8 @@ auth:
   auth-memory:
     users:
       foo:
-        name: test
-        password: test
+        name: leeroy
+        password: ${{ secrets.VERDACCIO_PASS }}
 store:
   memory:
     limit: 1000
