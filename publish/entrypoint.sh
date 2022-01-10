@@ -2,7 +2,7 @@
 
 set -e
 
-local_registry="http://0.0.0.0:4873"
+local_registry="http://127.0.0.1:4873"
 
 # start local registry
 tmp_registry_log=`mktemp`
